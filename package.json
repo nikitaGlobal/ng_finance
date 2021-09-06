@@ -1,0 +1,30 @@
+{
+  "name": "kuzya",
+  "version": "1.0.0",
+  "description": "finance manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "dev": "tsc -w & nodemon -q -w dist app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nikitaGlobal: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@github.com/nikitaGlobal/ng_finance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitaGlobal/ng_finance/issues"
+  },
+  "homepage": "https://github.com/nikitaGlobal/ng_finance#readme",
+  "devDependencies": {
+    "mongodb": "^4.1.1",
+    "nodemon": "^2.0.12",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "es6-promisify": "^7.0.0"
+  }
+}
